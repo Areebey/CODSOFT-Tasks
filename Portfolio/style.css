@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: montserrat;
 }
 
 html,body{
@@ -9,18 +10,54 @@ html,body{
     width: 100%;
 }
 
-#main{
+.main{
     position: relative;
     overflow: hidden;
 }
 
-#page{
+.page{
+    position: relative;
     height: 100vh;
     width: 100vw;
     background-color: #ffff;
 }
-#page1{
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+    background-color:#f5f2f2;
+}
+.center-nav{
+    display: flex;
+    gap: 20px;
+}
+.center-nav >a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+.nav>input{
+    padding: 10px 5px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+}
+.page >img{
+    position: absolute;
+    width: 50%;
+    top: 52%;
+    right:5%;
+    transform: translateY(-50%);
+}
+
+.page1{
     height: 100vh;
     width: 100vw;
-    background-color:#ffff;
+    background-color:#a71c1c;
 }
