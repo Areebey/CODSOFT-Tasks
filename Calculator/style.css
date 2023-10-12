@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.container{
+    width: 50%;
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    border: 1px solid red;
+}
+
+.screen{
+    padding: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.btn{
+    padding: 20px;
+    background-color: aqua;
+    border: 1px solid purple;
+}
